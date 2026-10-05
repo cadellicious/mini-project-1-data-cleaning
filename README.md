@@ -8,7 +8,7 @@ Data diperoleh menggunakan **Geoapify Places API** melalui endpoint `Places`. Da
 
 ---
 
-## 📌 Informasi Project
+## Informasi Project
 
 | Informasi | Detail |
 |---|---|
@@ -24,7 +24,7 @@ Data diperoleh menggunakan **Geoapify Places API** melalui endpoint `Places`. Da
 
 ---
 
-## 🎯 Tujuan
+## Tujuan
 
 Project ini dibuat untuk menerapkan beberapa tahapan pengolahan data dari sumber API, yaitu:
 
@@ -36,7 +36,7 @@ Project ini dibuat untuk menerapkan beberapa tahapan pengolahan data dari sumber
 
 ---
 
-## 🔌 API yang Digunakan
+## API yang Digunakan
 
 API yang digunakan adalah **Geoapify Places API**.
 
@@ -75,7 +75,7 @@ circle:106.827153,-6.175392,3000
 
 ---
 
-## 🔐 Pengelolaan API Key
+## Pengelolaan API Key
 
 API Key tidak dituliskan langsung di dalam kode program. Key disimpan dalam file `.env` agar kredensial tidak menjadi bagian dari kode utama.
 
@@ -100,7 +100,7 @@ API_KEY = os.getenv("GEOAPIFY_API_KEY")
 
 ---
 
-## 🧩 Alur Pengambilan Data
+## Alur Pengambilan Data
 
 Proses pengambilan data dilakukan melalui beberapa tahap:
 
@@ -126,7 +126,7 @@ Geoapify mengembalikan hasil dalam bentuk **GeoJSON**. Data lokasi berada pada b
 
 ---
 
-## 🏗️ Class yang Dibangun
+## Class yang Dibangun
 
 Untuk membuat proses request lebih terstruktur, project ini menggunakan class:
 
@@ -160,7 +160,7 @@ Dengan demikian, proses pencarian dapat digunakan kembali tanpa harus menuliskan
 
 ---
 
-## 📦 Data yang Diambil
+## Data yang Diambil
 
 Dari response Geoapify, data kemudian disederhanakan menjadi beberapa kolom utama:
 
@@ -176,7 +176,7 @@ Kategori yang berasal dari API juga digabung menjadi satu nilai teks pada kolom 
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 Sebelum dataset digunakan lebih lanjut, dilakukan pemeriksaan terhadap:
 
@@ -252,7 +252,7 @@ Karena tipe data koordinat sudah sesuai, proses ini berfungsi untuk memastikan k
 
 ---
 
-## 📊 Hasil Akhir
+## Hasil Akhir
 
 Setelah seluruh proses pemeriksaan dan cleaning selesai:
 
@@ -276,7 +276,7 @@ Longitude
 
 ---
 
-## 💾 Penyimpanan Dataset
+## Penyimpanan Dataset
 
 Dataset yang telah dibersihkan disimpan dalam file:
 
@@ -297,7 +297,7 @@ Parameter `index=False` digunakan agar nomor index DataFrame tidak ikut disimpan
 
 ---
 
-## 📁 Struktur File Repository
+## Struktur File Repository
 
 Struktur project yang digunakan dapat dibuat seperti berikut:
 
@@ -321,7 +321,7 @@ mp1-aiautomation-2026/
 
 ---
 
-## ▶️ Cara Menjalankan Project
+## Cara Menjalankan Project
 
 ### 1. Clone repository
 
@@ -378,7 +378,7 @@ Kemudian jalankan cell dari atas ke bawah.
 
 ---
 
-## ✅ Kesimpulan
+## Kesimpulan
 
 Project ini menunjukkan alur sederhana pengolahan data berbasis API mulai dari memperoleh API Key, melakukan request ke Geoapify Places API, membangun class `KlienTempat`, mengubah response API menjadi DataFrame, melakukan data cleaning, hingga menyimpan hasil akhir ke CSV.
 
@@ -386,13 +386,13 @@ Hasil akhirnya adalah dataset lokasi dengan **114 baris dan 5 kolom** yang telah
 
 ---
 
-## 👤 Author
+## Author
 
 **Fajrin Efantri**  
 AI Automation Engineer
 
 ---
 
-## 📌 Catatan
+## Catatan
 
 Project ini dibuat sebagai bagian dari **Mini Project Pelatihan AI Automation Engineer**.
